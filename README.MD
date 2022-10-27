@@ -22,6 +22,13 @@
 
 ## :books: About
 
+Timeline where you can:
+
+- See posts
+- Publish comments
+- Like comments
+- Delete comments
+
 <a id="execution"></a><br>
 
 ## :tv: Preview
@@ -35,7 +42,6 @@
 - React.js
 - TypeScript
 - CSS modules
-- Axios
 
 <a id="run"></a><br>
 
@@ -46,7 +52,7 @@
 - Clone this repository
 
 ```
-git clone https://github.com/RuthMaria/ignite-fundamentals-reactjs.git
+git clone https://github.com/RuthMaria/ignite-react-fundamentals.git
 ```
 
 - Install dependencies
