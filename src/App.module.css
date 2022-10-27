@@ -1,0 +1,29 @@
+.wrapper {
+  max-width: 70rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+
+  display: grid;
+  grid-template-columns: 256px 1fr;
+  gap: 2rem;
+  align-items: flex-start; /* os elementos são alinhados no topo e não ficam com o mesmo tamanho, as alturas deles são respeitadas */
+}
+
+/*
+O valor do font-size foi definido por regra de 3:
+
+16 -> 100%  |  16x=1400
+14 -> X     |    x=87,5%
+
+onde 16 é o tamanho da minha fonte atual e o 14 é o tamanho de fonte desejado
+*/
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
